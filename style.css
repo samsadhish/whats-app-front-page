@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 135rem;
+  height: 75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.head {
+  width: 134rem;
+  height: 18.6rem;
+  background-color: #075e54;
+  color: white;
+}
+
+.upper {
+  width: 134rem;
+  height: 11rem;
+}
+
+.logo {
+  width: 105rem;
+  height: 7rem;
+  font-size: 4rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  float: left;
+}
+
+.threedots {
+  width: 5rem;
+  height: 8rem;
+  float: right;
+  font-size: 3rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.search {
+  width: 5rem;
+  height: 8rem;
+  float: right;
+  font-size: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
+.camera {
+  width: 5rem;
+  height: 8rem;
+  float: right;
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+.threedots:hover,
+.search:hover,
+.camera:hover {
+  color: #128c7e;
+}
+
+.navdro {
+  width: 134.6rem;
+  height: 7.6rem;
+  float: left;
+  display: inline-flex;
+}
+
+.grp {
+  width: 7.8rem;
+  height: 6.8rem;
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: #128c7e;
+}
+
+.grp:hover {
+  color: white;
+  border-bottom: 0.2rem solid white;
+}
+
+.box {
+  width: 43.46rem;
+  height: 6rem;
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #128c7e;
+}
+
+.box1 {
+  border-bottom: 0.2rem solid white;
+  color: white;
+}
+
+.box:hover {
+  border-bottom: 0.2rem solid white;
+  color: white;
+}
+
+.contact {
+  width: 134.6rem;
+  height: 11rem;
+  clear: both;
+  margin-top: 1.5rem;
+}
+
+.contact:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.dp {
+  width: 10rem;
+  height: 18rem;
+  margin-top: 0.4rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  float: left;
+}
+
+.dp img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.info {
+  width: 120.6rem;
+  height: 18.6rem;
+  float: left;
+  margin-left: 0.5rem;
+}
+
+.name {
+  width: 28rem;
+  height: 5rem;
+  margin-left: 2.8rem;
+  font-size: 3rem;
+  text-align: left;
+  float: left;
+}
+
+.time {
+  width: 10rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-top: 0.4rem;
+  font-size: 1.3rem;
+  text-align: center;
+  float: right;
+}
+
+.msg{
+  width: 118.6rem;
+  height: 5.8rem;
+  float: left;
+  margin-left: 2.8rem;
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 780px) {
+  html{
+    font-size: 45%;
+  }
+
+  .wrapper{
+    width: auto;
+  }
+
+  .upper{
+    width: auto;
+    height: auto;
+  }
+  
+  .head{
+    width: auto;
+  }
+
+  .logo{
+    width: auto;
+  }
+
+  .box{
+    width: 25rem;
+  }
+
+  .navdro{
+    width: auto;
+    height: auto;
+  }
+
+  .contact{
+    width: auto;
+  }
+
+  .info{
+    width: 65rem;
+  }
+
+  .msg{
+    width: 50rem;
+    text-align: left;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  html{
+    font-size: 35%;
+  }
+
+  .wrapper{
+    width: auto;
+  }
+
+  .upper{
+    width: auto;
+    height: auto;
+  }
+  
+  .head{
+    width: auto;
+  }
+
+  .logo{
+    width: auto;
+  }
+
+  .box{
+    width: 19rem;
+  }
+
+  .navdro{
+    width: auto;
+    height: auto;
+  }
+
+  .contact{
+    width: auto;
+  }
+
+  .info{
+    width: 65rem;
+  }
+
+  .msg{
+    width: 50rem;
+    text-align: left;
+    display: block;
+  }
+}
+
+
+
+
+
